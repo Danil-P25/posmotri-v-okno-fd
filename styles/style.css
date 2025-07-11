@@ -49,10 +49,6 @@ ol {
   gap: 30px;
 }
 
- .result {
-margin-bottom: 10px;
- }
-
 .result__video-container {
   position: relative;
   width: 711px;
@@ -103,7 +99,6 @@ width: fit-content;
 .title {
 font-family: 'Oswald', sans-serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 75px;
 line-height: 94%;
 text-transform: uppercase;
@@ -120,12 +115,13 @@ text-transform: uppercase;
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 1);
   border-bottom: 1px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   background-color: transparent;
   appearance: none; 
 }
 
 .search-form__textfield::placeholder {
-color: rgb(255 255 255 / 0.7);
+color: rgba(255 255 255 / 0.7);
 }
 
 .search-form__textfield:focus {
@@ -177,7 +173,6 @@ color: rgb(255 255 255 / 0.7);
   color: rgba(255, 255, 255, 1);
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
   line-height: 100%;
   text-align: center;
@@ -239,8 +234,8 @@ color: rgb(255 255 255 / 0.7);
 }
 
 .content__list-item {
-padding-left: 3px;
-padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .content__card-link {
@@ -272,7 +267,6 @@ padding-right: 3px;
 .content__video-card-title {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
