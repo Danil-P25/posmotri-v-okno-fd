@@ -288,6 +288,7 @@ color: rgba(255 255 255 / 0.7);
   -webkit-line-clamp: 4; 
   overflow: hidden;
   overflow-wrap: break-word;
+  margin-top: 5px;
 }
 
 .content__video-card {
@@ -309,7 +310,6 @@ color: rgba(255 255 255 / 0.7);
   object-position: center;
   -webkit-line-clamp: 4;
   text-overflow: ellipsis;
-  max-height: calc(4 * 1.2em);
 }
 
 .visually-hidden {
